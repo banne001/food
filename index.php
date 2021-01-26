@@ -12,9 +12,9 @@ $f3-> set('DEBUG', 3);
 
 // define a default route (home page)
 $f3 -> route ('GET /', function(){
-    // echo "<h1> Hello, World </h1>";
-    $view = new Template();
-    echo $view->render("views/home.html");
+    echo "<h1> My Food Page </h1>";
+    //$view = new Template();
+    //echo $view->render("views/home.html");
 });
 
 // run fat free
